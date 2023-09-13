@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+      height: 95vh;
+      background-color: black;
+      background-image: url(../imagens/img-car1.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      
+     /* background: black url(im.webp) center center no-repeat fixed;
+      background-size: cover;*/
+  }
+  main{
+      text-align: center;
+      padding-left: 10px;
+      max-width: 700px;
+      border-radius: 15px;
+      background-color: rgb(221, 212, 212);
+      margin: auto;
+      background-repeat: no-repeat;
+  }
+  main a {
+      font-size: 120%;
+      text-decoration-line: none;
+      color: rgb(0, 0, 0);
+  }
+  main a:hover{
+      text-decoration: underline;
+      color: rgb(255, 0, 0);
+  }
+</style>

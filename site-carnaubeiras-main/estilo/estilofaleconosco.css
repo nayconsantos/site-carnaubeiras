@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body{
+    height: 95vh;
+    background-color: black;
+    background-image: url(../imagens/imagem-fundo-faleconosco.avif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+main {
+    background-color: rgb(221, 212, 212);
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+main a{
+    text-decoration: none;
+}
+main a:hover{
+    color: red;
+    text-decoration: underline;
+}
+div p {
+    background-color: rgb(221, 212, 212);
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px
+}
+div a{
+    text-decoration: none;
+}
+div a:hover{
+    color: red;
+    text-decoration: underline;
+}

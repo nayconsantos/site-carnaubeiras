@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+    height: 95vh;
+    background-color: black;
+    background-image: url(../imagens/imagemdunas.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+main{
+    max-width: 700px;
+    background-color: rgb(221, 212, 212);
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+main a{
+    text-decoration: none;
+}
+main a:hover{
+    color: red;
+    text-decoration: underline;
+}
