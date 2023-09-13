@@ -135,13 +135,15 @@ main strong {
 main a {
     text-decoration: none;
     font-weight: bold;
-    color: white;
-    background-color: var(--cor);
+    background-color: #3290ee;
+    color: rgb(0, 0, 0);
     padding: 2px 5px;
+    border-radius: 5px;
 }
 main a:hover {
     text-decoration: underline;
-    color: #5460cf;
+    font-size: 17px;
+    color: rgb(190, 16, 16);
 }
 main img {
     width: 60%;
